@@ -1,0 +1,21 @@
+.header {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nav > li {
+    color: white;
+  }
